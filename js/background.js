@@ -1,10 +1,10 @@
 const images = [
-    "https://source.unsplash.com/random/?sea",
-    "https://source.unsplash.com/random/?space",
-    "https://source.unsplash.com/random/?night,sky",
-    "https://source.unsplash.com/random/?star",
-    "https://source.unsplash.com/random/?sunset",
-    "https://source.unsplash.com/random/?mountain",
+    "https://source.unsplash.com/random/1920x1080/?sea",
+    "https://source.unsplash.com/random/1920x1080/?space",
+    "https://source.unsplash.com/random/1920x1080/?night,sky",
+    "https://source.unsplash.com/random/1920x1080/?star",
+    "https://source.unsplash.com/random/1920x1080/?sunset",
+    "https://source.unsplash.com/random/1920x1080/?mountain",
 ];
 
 const chosenImage = images[Math.floor(Math.random() * images.length)];
